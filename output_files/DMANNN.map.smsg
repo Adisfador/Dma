@@ -1,0 +1,34 @@
+Warning (10273): Verilog HDL warning at Processor.v(67): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 67
+Warning (10273): Verilog HDL warning at Processor.v(83): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 83
+Warning (10273): Verilog HDL warning at Processor.v(97): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 97
+Warning (10273): Verilog HDL warning at Processor.v(115): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 115
+Warning (10273): Verilog HDL warning at Processor.v(129): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 129
+Warning (10273): Verilog HDL warning at Processor.v(154): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 154
+Warning (10273): Verilog HDL warning at Processor.v(168): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 168
+Warning (10273): Verilog HDL warning at Processor.v(190): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 190
+Warning (10273): Verilog HDL warning at Processor.v(202): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 202
+Warning (10273): Verilog HDL warning at Processor.v(217): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 217
+Warning (10273): Verilog HDL warning at Processor.v(231): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 231
+Warning (10273): Verilog HDL warning at Processor.v(251): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 251
+Warning (10273): Verilog HDL warning at Processor.v(268): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 268
+Warning (10273): Verilog HDL warning at Processor.v(287): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 287
+Warning (10273): Verilog HDL warning at Processor.v(305): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 305
+Warning (10273): Verilog HDL warning at Processor.v(322): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 322
+Warning (10273): Verilog HDL warning at Processor.v(333): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/Processor.v Line: 333
+Warning (10273): Verilog HDL warning at DMA_Project.v(63): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 63
+Warning (10273): Verilog HDL warning at DMA_Project.v(77): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 77
+Warning (10273): Verilog HDL warning at DMA_Project.v(95): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 95
+Warning (10273): Verilog HDL warning at DMA_Project.v(109): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 109
+Warning (10273): Verilog HDL warning at DMA_Project.v(131): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 131
+Warning (10273): Verilog HDL warning at DMA_Project.v(144): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 144
+Warning (10273): Verilog HDL warning at DMA_Project.v(149): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 149
+Warning (10273): Verilog HDL warning at DMA_Project.v(161): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 161
+Warning (10273): Verilog HDL warning at DMA_Project.v(166): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 166
+Warning (10273): Verilog HDL warning at DMA_Project.v(177): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 177
+Warning (10273): Verilog HDL warning at DMA_Project.v(182): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 182
+Warning (10273): Verilog HDL warning at DMA_Project.v(195): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/DMA_Project.v Line: 195
+Warning (10268): Verilog HDL information at iodevice.v(39): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/DMANNN/iodevice.v Line: 39
+Warning (10268): Verilog HDL information at iodevice2.v(104): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/DMANNN/iodevice2.v Line: 104
+Warning (10273): Verilog HDL warning at RegisterFile.v(78): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/RegisterFile.v Line: 78
+Warning (10273): Verilog HDL warning at RegisterFile.v(101): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/RegisterFile.v Line: 101
+Warning (10273): Verilog HDL warning at RegisterFile.v(104): extended using "x" or "z" File: C:/intelFPGA_lite/DMANNN/RegisterFile.v Line: 104

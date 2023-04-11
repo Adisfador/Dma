@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "D_IOWrite1",
+					"strict" : false
+				},
+				{
+					"name" : "D_IOWrite2",
+					"strict" : false
+				},
+				{
+					"name" : "D_memwrite",
+					"strict" : false
+				},
+				{
+					"name" : "D_IOAck1",
+					"strict" : false
+				},
+				{
+					"name" : "D_IOAck2",
+					"strict" : false
+				},
+				{
+					"name" : "busybus",
+					"strict" : false
+				},
+				{
+					"name" : "DMA_instruction[24]",
+					"strict" : false
+				},
+				{
+					"name" : "DMA_instruction[22]",
+					"strict" : false
+				},
+				{
+					"name" : "DMA_instruction[23]",
+					"strict" : false
+				},
+				{
+					"name" : "DMA_instruction[25]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "grant",
+					"strict" : false
+				},
+				{
+					"name" : "IOIP2",
+					"strict" : false
+				},
+				{
+					"name" : "IOIP1",
+					"strict" : false
+				},
+				{
+					"name" : "next_destination[5]",
+					"strict" : false
+				},
+				{
+					"name" : "next_destination[6]",
+					"strict" : false
+				},
+				{
+					"name" : "next_destination[7]",
+					"strict" : false
+				},
+				{
+					"name" : "next_source[6]",
+					"strict" : false
+				},
+				{
+					"name" : "next_source[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

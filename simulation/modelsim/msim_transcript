@@ -1,0 +1,202 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do DMANNN_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/DMANNN {C:/intelFPGA_lite/DMANNN/DMA_Project.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:32:33 on Apr 11,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/DMANNN" C:/intelFPGA_lite/DMANNN/DMA_Project.v 
+# -- Compiling module DMA_Project
+# 
+# Top level modules:
+# 	DMA_Project
+# End time: 14:32:33 on Apr 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/DMANNN {C:/intelFPGA_lite/DMANNN/TestBench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:32:33 on Apr 11,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/DMANNN" C:/intelFPGA_lite/DMANNN/TestBench.v 
+# -- Compiling module memory
+# -- Compiling module clkgenerator
+# -- Compiling module RegisterFile
+# -- Compiling module iodevice1
+# -- Compiling module iodevice2
+# -- Compiling module Processor
+# -- Compiling module DMA_Project
+# -- Compiling module mux
+# -- Compiling module addressmux
+# -- Compiling module TestBench
+# 
+# Top level modules:
+# 	TestBench
+# End time: 14:32:33 on Apr 11,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TestBench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TestBench 
+# Start time: 14:32:33 on Apr 11,2023
+# Loading work.TestBench
+# Loading work.clkgenerator
+# Loading work.mux
+# Loading work.addressmux
+# Loading work.Processor
+# Loading work.RegisterFile
+# Loading work.DMA_Project
+# Loading work.iodevice2
+# Loading work.iodevice1
+# Loading work.memory
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 0 ps  Iteration: 1  Instance: /TestBench/dev2
+# end
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 5 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 10 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 15 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 20 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 25 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 30 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 35 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 40 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 45 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 50 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 55 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 60 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 65 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 70 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 75 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 80 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 85 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 90 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 95 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 100 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 105 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 110 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 115 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 120 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 125 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 130 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 135 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 140 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 145 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 150 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 155 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 160 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 165 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 170 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 175 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 180 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 185 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 190 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 195 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 200 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 205 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 210 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Warning: (vsim-7) Failed to open readmem file "C:\intelFPGA_lite\DMANNN\interrupt2.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/intelFPGA_lite/DMANNN/iodevice2.v(69)
+#    Time: 215 ps  Iteration: 1  Instance: /TestBench/dev2
+# ** Note: $stop    : C:/intelFPGA_lite/DMANNN/TestBench.v(195)
+#    Time: 220 ps  Iteration: 0  Instance: /TestBench
+# Break in Module TestBench at C:/intelFPGA_lite/DMANNN/TestBench.v line 195
+# End time: 14:32:56 on Apr 11,2023, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 44

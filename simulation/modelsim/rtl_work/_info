@@ -1,0 +1,255 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/DMANNN/simulation/modelsim
+vaddressmux
+Z1 !s110 1681212753
+!i10b 1
+!s100 fk>9_d@RogI_bTHJ6dY[`2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUN7NM]WBE=`n6mYf5J`6;0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1679866267
+8C:/intelFPGA_lite/DMANNN/addressmux.v
+FC:/intelFPGA_lite/DMANNN/addressmux.v
+!i122 1
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1681212753.000000
+!s107 C:/intelFPGA_lite/DMANNN/addressmux.v|C:/intelFPGA_lite/DMANNN/mux.v|C:/intelFPGA_lite/DMANNN/DMA_Project.v|C:/intelFPGA_lite/DMANNN/Processor.v|C:/intelFPGA_lite/DMANNN/iodevice2.v|C:/intelFPGA_lite/DMANNN/iodevice1.v|C:/intelFPGA_lite/DMANNN/RegisterFile.v|C:/intelFPGA_lite/DMANNN/clkgenerator.v|C:/intelFPGA_lite/DMANNN/memory.v|C:/intelFPGA_lite/DMANNN/TestBench.v|
+Z6 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/DMANNN|C:/intelFPGA_lite/DMANNN/TestBench.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/DMANNN
+Z9 tCvgOpt 0
+vclkgenerator
+R1
+!i10b 1
+!s100 dYcTbcUFMHY^<fSRTh3>P0
+R2
+I1lUO@Wb7Dd;E9WW:j<BL51
+R3
+R0
+w1679866273
+8C:/intelFPGA_lite/DMANNN/clkgenerator.v
+FC:/intelFPGA_lite/DMANNN/clkgenerator.v
+!i122 1
+L0 1 11
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 C:/intelFPGA_lite/DMANNN/addressmux.v|C:/intelFPGA_lite/DMANNN/mux.v|C:/intelFPGA_lite/DMANNN/DMA_Project.v|C:/intelFPGA_lite/DMANNN/Processor.v|C:/intelFPGA_lite/DMANNN/iodevice2.v|C:/intelFPGA_lite/DMANNN/iodevice1.v|C:/intelFPGA_lite/DMANNN/RegisterFile.v|C:/intelFPGA_lite/DMANNN/clkgenerator.v|C:/intelFPGA_lite/DMANNN/memory.v|C:/intelFPGA_lite/DMANNN/TestBench.v|
+R6
+!i113 1
+R7
+R8
+R9
+vDMA_Project
+R1
+!i10b 1
+!s100 S0b_YH^dKDbcf6<A_X2of2
+R2
+I2zPW]BW7IV<L3T5_jZ2XK2
+R3
+R0
+w1679950561
+8C:/intelFPGA_lite/DMANNN/DMA_Project.v
+FC:/intelFPGA_lite/DMANNN/DMA_Project.v
+!i122 1
+L0 1 204
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+n@d@m@a_@project
+viodevice1
+R1
+!i10b 1
+!s100 EDk<K8@o0UnSM`YzDO<LG2
+R2
+IJXGE1Bgm5M=Te3XhLoOX`2
+R3
+R0
+w1681212629
+8C:/intelFPGA_lite/DMANNN/iodevice1.v
+FC:/intelFPGA_lite/DMANNN/iodevice1.v
+!i122 1
+L0 1 159
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+viodevice2
+R1
+!i10b 1
+!s100 azNjkfUn8i]<jLY_S7gjY1
+R2
+I2UbRHNaVAhZYP=zaaX8dB0
+R3
+R0
+w1679867064
+8C:/intelFPGA_lite/DMANNN/iodevice2.v
+FC:/intelFPGA_lite/DMANNN/iodevice2.v
+!i122 1
+L0 1 197
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+vmemory
+R1
+!i10b 1
+!s100 nO[RBJPLYH^P5G`WjaV<b2
+R2
+I9E4i<7i:AJ[;l]SzM25og3
+R3
+R0
+w1681212239
+8C:/intelFPGA_lite/DMANNN/memory.v
+FC:/intelFPGA_lite/DMANNN/memory.v
+!i122 1
+L0 1 89
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+vmux
+R1
+!i10b 1
+!s100 UV>Yb6XGDn4BO?NG@hiaM2
+R2
+Ic=SZjk>P_6jDKO[:BGhHZ3
+R3
+R0
+w1679866230
+8C:/intelFPGA_lite/DMANNN/mux.v
+FC:/intelFPGA_lite/DMANNN/mux.v
+!i122 1
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+vProcessor
+R1
+!i10b 1
+!s100 RCNYQFV?WEHB_DNoBKJLN2
+R2
+IcRmm_098^Z=>^Rdm7]1bI3
+R3
+R0
+w1681212012
+8C:/intelFPGA_lite/DMANNN/Processor.v
+FC:/intelFPGA_lite/DMANNN/Processor.v
+!i122 1
+L0 2 340
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+n@processor
+vRegisterFile
+R1
+!i10b 1
+!s100 PC>h]O=[oIOXn0Mo8@WSJ2
+R2
+I2`0n@fgDZX8U<RmG8WQDP1
+R3
+R0
+w1681212095
+8C:/intelFPGA_lite/DMANNN/RegisterFile.v
+FC:/intelFPGA_lite/DMANNN/RegisterFile.v
+!i122 1
+L0 1 137
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+n@register@file
+vTestBench
+R1
+!i10b 1
+!s100 WDGnJ:mUH66Y=QA[91R_D3
+R2
+I3U><B^bF9Xk5WLF<OK`a^1
+R3
+R0
+w1681212742
+8C:/intelFPGA_lite/DMANNN/TestBench.v
+FC:/intelFPGA_lite/DMANNN/TestBench.v
+!i122 1
+L0 11 200
+R4
+r1
+!s85 0
+31
+R5
+R10
+R6
+!i113 1
+R7
+R8
+R9
+n@test@bench
